@@ -24,8 +24,5 @@ Insights to support business growth and customer satisfaction
 
 
 
-select  top 5 pizza_name,count(distinct order_id)as 'Total_order' from pizza_sales
-group by pizza_name
-order by total_order asc
 
 
